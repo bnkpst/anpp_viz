@@ -11,6 +11,8 @@ const DIR = "https://docs.advancednavigation.com/certus/ANPP/";
 
 export const Packets = () => {
 
+    // Maybe use assembly css?
+
     const [packets, setPackets] = useState([]);
 
     useEffect(() => {
