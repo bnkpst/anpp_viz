@@ -32,7 +32,7 @@ export const Packets = () => {
 
     return(
         <div className='packets-div scroll-styled'>
-            {packets && packets.map((item, key) => <div key={key}>{item.packet} | {item.name}</div>)}
+            {packets && packets.map((item, key) => <div key={key}><a href={DIR + item.ut}>{item.packet} | {item.name}</a></div>)}
         </div>
     );
 }
